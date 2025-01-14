@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Webpage with UI/UX Enhancements</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1><i class="fas fa-globe"></i> Webpage UI/UX</h1>
+    <button class="menu-toggle" onclick="toggleLeftMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="container">
+    <!-- Left Menu -->
+    <aside class="left-menu" id="left-menu" width="200">
+      <ul>
+        <li class="menu-item active">
+          <a href="#"><i class="fas fa-home"></i> <span>Home</span></a>
+        </li>
+        <li class="menu-item">
+          <a href="#"><i class="fas fa-info-circle"></i> <span>About</span></a>
+        </li>
+        <li class="menu-item">
+          <a href="#"><i class="fas fa-envelope"></i> <span>Contact</span></a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Welcome to the Main Content Area</h2>
+      <p>
+        This section contains the main content. Click on the menu items to navigate or explore additional features.
+      </p>
+    </main>
+
+    <!-- Right-Side Panel -->
+    <aside class="right-panel">
+      <h3>Additional Features</h3>
+      <ul>
+        <li><i class="fas fa-cogs"></i> Customizable Settings</li>
+        <li><i class="fas fa-lightbulb"></i> Tips and Tricks</li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Responsive Webpage.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
