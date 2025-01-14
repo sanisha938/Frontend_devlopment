@@ -36,7 +36,13 @@ This project demonstrates the creation of a responsive webpage with a fixed navb
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/Frontend_devlopment.git
+
+---
+## Output screen snapshot
+![image](https://github.com/user-attachments/assets/3ca75463-833b-4936-b27d-f7bf3c1dc048)
+
+
